@@ -26,6 +26,8 @@ The output of the code will be a summary of the PDF file. The summary will be pr
 
 ## Vulnerabilities
 
+Model used: https://huggingface.co/bigcode/starcoder
+
 There are no known vulnerabilities in this code. However, it is important to note that the BigCode/StarCoder model is still under development, and it is possible that the model may generate summaries that are inaccurate or misleading.
 
 ## License
