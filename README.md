@@ -4,18 +4,26 @@ This code uses the Hugging Face Transformers library to generate a summary of a 
 
 ## Instructions
 
-To run this code, you will need to install the following libraries:
+To run this code, you will need to dependencies using poetry. If you do not have poetry installed, you can use `brew` to install it: `brew install poetry`
+
+Poetry install guide: https://python-poetry.org/docs/#installation
+
+Once you have poetry setup, install the dependencies using 
 
 ```
-pip install transformers
-pip install textract
+poetry install
 ```
 
-Once you have installed the libraries, you can run the code by typing the following command in your terminal:
+This will create a new virtual environment and install dependencies.
+
+Once you have installed the libraries, you can run the code by typing the following commands in your terminal:
 
 ```
+poetry shell
 python HFTransformer.py
 ```
+
+Once you are done, deactivate the virtual environment using command `deactivate`.
 
 ## Output
 
