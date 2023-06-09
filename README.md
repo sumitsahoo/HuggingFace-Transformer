@@ -2,28 +2,32 @@
 
 This code uses the Hugging Face Transformers library to generate a summary of a PDF file. The code first imports the `textract` library to extract the text from the PDF file. The text is then passed to the `HfAgent` class, which is used to generate a summary using the BigCode/StarCoder model. The summary is then printed to the console.
 
-## Instructions
+## Installation Instruction
 
-To run this code, you will need to dependencies using poetry. If you do not have poetry installed, you can use `brew` to install it: `brew install poetry`
-
-Poetry install guide: https://python-poetry.org/docs/#installation
-
-Once you have poetry setup, install the dependencies using 
-
-```
-poetry install
-```
-
-This will create a new virtual environment and install dependencies.
-
-Once you have installed the libraries, you can run the code by typing the following commands in your terminal:
-
-```
-poetry shell
-python HFTransformer.py
-```
-
-Once you are done, deactivate the virtual environment using command `deactivate`.
+1. Install Poetry
+    ```
+    # Using pip
+    pip install poetry
+    
+    # Using brew (macOS)
+    brew install poetry
+    ```
+2. Create a virtual environment, install dependencies and activate it
+    ```
+    poetry install
+    ```
+3. Activate the virtual environment and log into the shell
+    ```
+    poetry install
+    ```
+4. Run the app
+    ```
+    python HFTransformer.py
+    ```
+5. Once done, deactivate the environment and exit from shell
+    ```
+    deactivate
+    ```
 
 ## Output
 
