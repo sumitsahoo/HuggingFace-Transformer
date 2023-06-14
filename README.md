@@ -18,7 +18,7 @@ This code uses the Hugging Face Transformers library to generate a summary of a 
     ```
 3. Activate the virtual environment and log into the shell
     ```
-    poetry install
+    poetry shell
     ```
 4. Run the app
     ```
