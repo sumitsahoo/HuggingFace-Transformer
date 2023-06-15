@@ -12,19 +12,19 @@ This code uses the Hugging Face Transformers library to generate a summary of a 
     # Using brew (macOS)
     brew install poetry
     ```
-2. Create a virtual environment, install dependencies and activate it
+2. Create a virtual environment, install dependencies
     ```
     poetry install
     ```
-3. Activate the virtual environment and log into the shell
+4. Activate the virtual environment and log into the shell
     ```
     poetry shell
     ```
-4. Run the app
+5. Run the app
     ```
     python HFTransformer.py
     ```
-5. Once done, deactivate the environment and exit from shell
+6. Once done, deactivate the environment and exit from shell
     ```
     deactivate
     ```
