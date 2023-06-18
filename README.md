@@ -28,6 +28,7 @@ This code uses the Hugging Face Transformers library to generate a summary of a 
     ```
     deactivate
     ```
+To update dependencies use `poetry update`
 
 ## Output
 
